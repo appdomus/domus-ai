@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Button } from "../components/ui/button"
+import { Input } from "../components/ui/input"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+} from "../components/ui/dropdown-menu"
+import { ScrollArea } from "../components/ui/scroll-area"
+import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar"
 import { MenuIcon, SendIcon, MicIcon, PlusIcon } from 'lucide-react'
 
-export default function Component() {
+export default function Home() {
   const [conversations, setConversations] = useState([
     { id: 1, name: 'Reserva de Sala Común', lastMessage: 'Su reserva está confirmada.' },
     { id: 2, name: 'Mantenimiento Piscina', lastMessage: 'El mantenimiento está programado para...' },
